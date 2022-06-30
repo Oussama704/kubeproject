@@ -1,0 +1,86 @@
+#cercle1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: maroon;
+    display: inline-block;
+}
+#cap1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: green;
+    display: inline-block;
+}
+#cap2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: green;
+    display: inline-block;
+}
+#cercle2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: maroon;
+    display: inline-block;
+}
+#cap3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: green;
+    display: inline-block;
+}
+#cercle3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: maroon;
+    display: inline-block;
+}
+#cap4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: green;
+    display: inline-block;
+}
+#cap5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: green;
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }

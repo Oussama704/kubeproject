@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="{{url_for('static',filename='css/demo.css')}}" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="w3-bar w3-maroon w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+  </div>
+  <h4>Hello, {{data.username}};</h4>
+  <h4>Id : {{data.id}};</h4>
+<center>
+<div id ="vert">
+<div id="cap1"></div>
+<div id="cercle1"></div>
+<div id="cap2"></div>
+</div>
+<div id ="vert">
+<div id="cercle2"></div>
+<div id="cap3"></div>
+<div id="cercle2"></div>
+</div>
+<div id ="vert">
+<div id="cap4"></div>
+<div id="cercle3"></div>
+<div id="cap5"></div>
+</div>
+
+<script>
+
+  document.getElementById("cap1").style.background = "{{data.cap1}}";
+  document.getElementById("cap2").style.background = "{{data.cap2}}";
+  document.getElementById("cap3").style.background = "{{data.cap3}}";
+  document.getElementById("cap4").style.background = "{{data.cap4}}";
+  document.getElementById("cap5").style.background = "{{data.cap5}}";
+  
+
+</script>
+ <a href={{url_for('demo')}}><input type="button" name="button" value="Update"></a>
+</center>
+</body>
+</html>
